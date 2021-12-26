@@ -1,2 +1,2 @@
 # yakimavisus.github.io
-Привет мир
+Привет мир - http://f0612007.xsph.ru
