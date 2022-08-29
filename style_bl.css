@@ -1,0 +1,382 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000 url(images/bg.png);
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #999999;
+}
+
+h1, h2, h3, p, ul, ol {
+    margin-top: 0;
+}
+
+h1, h2, h3 {
+    text-transform: lowercase;
+}
+
+h1 {
+    letter-spacing: -2px;
+    font-size: 250%;
+}
+
+h2 {
+    letter-spacing: -1px;
+    font-size: 167%;
+}
+
+h3 {
+    font-size: 123.1%;
+}
+
+p, ul, ol {
+    margin-bottom: 1.8em;
+    line-height: 180%;
+}
+
+strong, em {
+    color: #ddd;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+
+    color: #eee;
+}
+
+a:visited {
+    color: #ccc;
+}
+
+a:hover {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+img {
+padding: 5px;
+}
+
+/* WRAP - Encloses everything to add the header background. */
+
+#wrap {
+    background: url(images/header_bg.png) no-repeat 50% 0;
+}
+
+/* HEADER - Contains the logo, slogan and menu. */
+
+#header {
+    width: 960px;
+    height: 150px;
+    margin: 0 auto;
+    text-transform: lowercase;
+}
+
+/* LOGO & SLOGAN */
+
+#header h1, #header h2 {
+    margin: 0;
+    text-align: center;
+    color: #000;
+}
+
+#header h1 {
+    padding-top: 35px;
+}
+
+#header a {
+    border: none;
+    color: #000;
+}
+
+#header a:hover {
+    color: #fff;
+}
+
+/* MENU */
+
+#header ul {
+    margin-top: 0;
+    padding: 1em 0 0 0;
+    line-height: normal;
+    list-style: none;
+    text-align: center;
+}
+
+#header li {
+    display: inline;
+}
+
+#header li a {
+    padding: 0 1em;
+    font-weight: bold;
+    color: #fff;
+}
+
+#header li a:hover {
+    color: #000;
+}
+
+/* PAGE - Contains the main content and the sidebar. */
+
+#page {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* CONTENT - The main content area. */
+
+#content {
+    float: left;
+    width: 640px;
+}
+
+/* POST - Contains a section of the content. Grouping content is neat. */
+
+.post {
+margin-bottom: 0;
+margin-top: 23px;
+}
+
+.post .title {
+    height: 35px;
+    margin: 0;
+    padding: 6px 0 0 20px;
+    background: url(images/post_title_bg.jpg) repeat-x;
+    font-size: 153.9%;
+    font-weight: normal;
+    color: #fff;
+}
+
+.post .title a {
+    border: none;
+    color: #fff;
+}
+
+.post .entry {
+    padding: 20px 20px 30px 20px;
+    border: 1px solid #222222;
+        text-align: justify;
+}
+
+.post .byline {
+    font-size: smaller;
+    color: #666666;
+}
+
+.post .byline a {
+    font-weight: bold;
+    color: #999999;
+}
+
+.post .meta {
+    background: url(images/post_meta_bg.png);
+}
+
+.post .meta p {
+    margin: 0;
+    padding: 10px;
+    line-height: normal;
+    color: #666666;
+background: url(images/post_title_bg2.jpg) repeat-x;
+border-bottom: 1px solid #111111;
+}
+
+.post .meta a {
+    border: none;
+    color: #999999;
+}
+
+.post .meta a:hover {
+    color: #fff;
+}
+
+.post .meta .tags {
+    padding-left: 30px;
+    background: url(images/tag_green.png) no-repeat 10px 50%;
+}
+
+.post .meta .links a {
+    padding-left: 22px;
+}
+
+.post .meta .comments {
+    background: url(images/comments.png) no-repeat 0 50%;
+}
+
+.post .meta .permalink {
+    background: url(images/world_link.png) no-repeat 0 50%;
+}
+
+.post .meta .more {
+    background: url(images/bullet_go.png) no-repeat 0 50%;
+}
+
+/* SIDEBAR - For extra links and ad spaces. */
+
+#sidebar {
+    float: right;
+    width: 300px;
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#sidebar li ul {
+    padding: 20px;
+}
+
+#sidebar li li {
+    padding: 2px 0;
+}
+
+#sidebar li li a {
+    border: none;
+}
+
+#sidebar li li a:hover {
+    padding-left: 20px;
+    background: url(images/bullet_go.png) no-repeat 0 50%;
+    color: #fff;
+}
+
+#sidebar h2 {
+    height: 35px;
+    margin: 0;
+    padding: 6px 0 0 20px;
+    background: url(images/post_title_bg.jpg) repeat-x;
+    font-size: 153.9%;
+    font-weight: normal;
+    color: #fff;
+
+}
+
+#sidebar .pad {
+    padding: 20px;
+}
+
+/* FOOTER - For footnotes and copyright notices. */
+
+#footer {
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    font-size: smaller;
+}
+
+#footer p {
+    margin: 0;
+    line-height: normal;
+}
+
+#footer .legal img {
+    margin-top: 1em;
+}
+
+/* My-engine */
+
+.blok {
+margin-top: 23px;
+}
+.name_blok {
+margin: 0;
+}
+.content_blok {
+margin-top: 0;
+padding: 5px 10px 5px 10px;
+border-top: 1px solid #111111;
+}
+.content_blok a {
+text-decoration: underline;
+color: #999999;
+}
+.content_blok a:hover {
+text-decoration: none;
+color: #ffffff;
+}
+
+.link  {
+padding: 2px 0;
+border-bottom: 1px dotted #333333;
+}
+.link a {
+border: none;
+}
+.link a:hover {
+padding-left: 20px;
+background: url(images/bullet_go.gif) no-repeat 0 50%;
+color: #fff;
+}
+
+.posts_body{
+margin-top: 20px;
+}
+.posts_head {
+margin-bottom: 15px;
+height: 35px;
+padding: 6px 0 0 20px;
+background: url(images/post_title_bg.jpg) repeat-x;
+font-size: 153.9%;
+font-weight: normal;
+color: #ffffff;
+text-transform: lowercase;
+border-bottom: 1px solid #111111;
+}
+.post_form{
+margin-bottom: 15px;
+margin-top: 15px;
+}
+.post_form button{
+margin: 1px;
+padding: 1px 6px 1px 6px;
+background: #555;
+border: 2px solid #333333;
+color: #ffffff;
+}
+.post_form input {
+background-color: #222222;
+border: 1px solid #333333;
+margin: 1px;
+padding: 3px;
+color: #ffffff;
+}
+.post_form TEXTAREA{
+width: 98%;
+border: 1px solid #333333;
+background: #222222;
+color: #ffffff;
+}
+.post_body{
+margin-bottom: 25px;
+}
+.post_info{
+margin-bottom: 5px;
+}
+.post_info .uzer_name{
+font-weight: bold;
+}
+
+.my_engine a {
+font-size: 11px;
+line-height: normal;
+padding-bottom: 10px;
+}
+.code {
+
+    border: dashed 1px #222222;
+    background: #222222;
+    font-family: "Courier New", Courier, monospace; 
+    padding: 7px;
+    font-size: 80%;
+    margin: 0 0 1em;
+
+}
